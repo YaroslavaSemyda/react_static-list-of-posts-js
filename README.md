@@ -8,7 +8,7 @@ This task is similar to [Static List of TODOs](https://github.com/mate-academy/r
   - styles from `App.scss` should be moved to separate files, as well. E.g.: `PostList.scss`;
 - `List` components should take an array of corresponding objects and render one `Info` component per object;
 - `Info` components should take one object and render its data.
-
+   
 ## Instructions
 - Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline).
