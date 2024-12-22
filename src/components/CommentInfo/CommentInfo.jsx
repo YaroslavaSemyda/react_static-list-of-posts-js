@@ -5,9 +5,10 @@ export const CommentInfo = ({ comment }) => {
 
   return (
     <div className="CommentInfo">
-      <p className="CommentInfo__name">
-        <strong>{name}</strong> ({email})
-      </p>
+      <h4 className="CommentInfo__name">{name}</h4>
+      <a className="CommentInfo__email" href={`mailto:${email}`}>
+        {email}
+      </a>
       <p className="CommentInfo__body">{body}</p>
     </div>
   );
